@@ -1,0 +1,33 @@
+{
+  "name": "indiaapi",
+  "version": "1.0.0",
+  "description": "Api for traveling awesome places in India to explore more and more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile":"./node_modules/.bin/babel/ code --out-dir lib",
+    "start":" ./node_modules/.bin/babel/ code --out-dir lib && nodemon lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maclipi/indiaApi.git"
+  },
+  "author": "Mayank Dwivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maclipi/indiaApi/issues"
+  },
+  "homepage": "https://github.com/maclipi/indiaApi#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "mongoose": "^5.4.2",
+    "nodemon": "^1.18.9",
+    "restify": "^7.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  }
+}

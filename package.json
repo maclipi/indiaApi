@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile":"./node_modules/.bin/babel/ code --out-dir lib",
-    "start":" ./node_modules/.bin/babel/ code --out-dir lib && nodemon lib/index.js"
+    "compile": "./node_modules/.bin/babel/ code --out-dir lib",
+    "start": " ./node_modules/.bin/babel/ code --out-dir lib && nodemon lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/maclipi/indiaApi#readme",
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
-    "mongoose": "^5.4.2",
+    "mongoose": "^5.4.19",
     "nodemon": "^1.18.9",
     "restify": "^7.4.0"
   },
